@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+    tools:context=".DetailsFragment"
+    >
+
+    <TextView
+        android:id="@+id/lblMainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#0000ff"
+        android:text="@string/lblMainTitle"
+        />
+
+    <TextView
+        android:id="@+id/lblTitleLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/lblTitle"
+        />
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=""
+        android:padding="5dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/lblDateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/lblDate"
+        />
+
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:padding="5dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/lblDescLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/lblDescription"
+        />
+
+    <TextView
+        android:id="@+id/lblDescription"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text=""
+        android:padding="5dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/lblURLLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/lblLink"
+        />
+
+    <TextView
+        android:id="@+id/lblURL"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=""
+        android:autoLink="web"
+        android:padding="5dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAdd"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnFavorites"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFavorites"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBack"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
