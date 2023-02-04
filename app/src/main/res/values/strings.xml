@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">BBCNewsReader</string>
+
+    <string name="home_screen">Home Screen</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="exit">Exit</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lblMainTitle">News Detail</string>
+    <string name="lblFavoriteTitle">Favorite News</string>
+
+    <string name="lblTitle">Title:</string>
+    <string name="lblDescription">Description:</string>
+    <string name="lblDate">Published Date:</string>
+    <string name="lblLink">URL:</string>
+    <string name="btnAdd">Add to Favorite</string>
+    <string name="btnFavorites">View Favorites</string>
+    <string name="btnDelete">Delete from Favorite</string>
+    <string name="btnBack">Back</string>
+    <string name="lblMsg">Number of Favorite URLS</string>
+
 </resources>
